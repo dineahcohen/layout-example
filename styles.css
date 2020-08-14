@@ -1,3 +1,8 @@
+:root{
+    --color-grey-100: #F8F8F8;
+    --color-grey-200: #C0C0C0;
+}
+
 body {
     font-family: "Inter", sans-serif;
 }
@@ -13,10 +18,9 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    background-color: #F8F8F8;
+    background-color: var(--color-grey-100);
     flex-direction: column;
     padding: 0px 40px;
-    background-color: #f2f2f2;
     border-radius: 25px;
 }
 
@@ -27,7 +31,7 @@ body {
 }
 
 #date{
-    color: #C0C0C0;
+    color: var(--color-grey-200);
 }
 
 .content-container{
@@ -41,7 +45,7 @@ body {
 }
 
 .status, .artist{
-    color: #C0C0C0;
+    color: var(--color-grey-200);
 }
 
 .title{
@@ -61,7 +65,7 @@ body {
 }
 
 .add-btn svg{
-    fill: #C0C0C0;
+    fill: var(--color-grey-200);
 }
 
 .fav-btn{
@@ -69,7 +73,7 @@ body {
     padding: 6px;
     height: 2rem;
     width: 3rem;
-    background-color: #C0C0C0;
+    background-color: var(--color-grey-200);
     border: none;
     border-radius: 50px;
     font-size: 15px;
@@ -84,7 +88,7 @@ body {
 
 
 .yday h3{
-    color: #C0C0C0;
+    color: var(--color-grey-200);
 }
 
 .navigation-wrapper{
