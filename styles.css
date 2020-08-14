@@ -91,12 +91,6 @@ body {
     display: flex;
 }
 
-.navigation-container{
-    align-items: center;
-    height: 100%;
-    width: 100%;
-}
-
 .navigation-container .nav-options{
     border: none;
     background-color: white;
@@ -104,18 +98,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3rem;
+    align-items: center;
+    height: 20vh;
+    width: 45vw;   
 }
 
-/* .navigation-container .nav-options a img{
-    height: 2rem;
-} */
 
 .corner{
     height:2rem;
+    padding: 1rem;
 }
 
 .middle{
-    height: 5rem;
-    fill: blue;
+    height: 4rem;
 }
