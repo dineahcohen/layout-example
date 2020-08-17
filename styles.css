@@ -34,14 +34,19 @@ body {
     color: var(--color-grey-200);
 }
 
+.content-wrapper{
+    background-color: #fff;
+    border-radius: 25px;
+    height: 20vh;
+    width: 45vw;
+    padding: 1rem;
+}
+
 .content-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 20vh;
-    width: 45vw;
-    background-color: white;
-    border-radius: 25px; 
+    padding: 0rem 1rem;
 }
 
 .status, .artist{
@@ -87,24 +92,23 @@ body {
 }
 
 
-.yday h3{
+.yesterday h3{
     color: var(--color-grey-200);
 }
 
 .navigation-wrapper{
-    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    height: 20vh;
+    width: 45vw;
+    padding: 1rem;
 }
 
 .navigation-container .nav-options{
     border: none;
-    background-color: white;
-    border-radius: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-    width: 45vw;   
 }
 
 
