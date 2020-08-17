@@ -65,8 +65,10 @@ body {
 }
 
 .add-btn{
+    position: relative;
     border: none;
     background-color: transparent;
+    top:4rem;
 }
 
 .add-btn svg{
