@@ -104,6 +104,10 @@ body {
     padding: 1rem;
 }
 
+.navigation-container {
+    padding-top: 2rem;
+}
+
 .navigation-container .nav-options{
     border: none;
     display: flex;
